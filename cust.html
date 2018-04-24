@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>团购排期</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!--<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<meta http-equiv="mobile-agent" content="format=xhtml;url=/m/list.php?tid=4">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="/m/list.php?tid=4";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>-->
+<link href="css/global.css" rel="stylesheet" type="text/css"/>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/comm.js"></script>
+</head>
+<body class="channel">
+<!-- header -->
+<div class="header">
+	<div class="wrapper-box">
+		<div class="clearfix header-box">
+			<a href="/" class="logo g-fl">
+				<img width="210" height="38" src="http://s.img16888.com/dist/images/buy4/logo.png" alt="">
+			</a>
+			<div class="search g-fl">
+				<div class="clearfix">
+					<input type="text" class="search-text g-fl J__search_text" placeholder="输入品牌或车型" />
+					<input type="button" class="search-btn J__search_btn" value="搜索" />
+				</div>
+				<p class="g-f12">热门搜索：
+					<a href="#">雅阁</a>
+					<a href="#">冠道</a>
+					<a href="#">汉兰达</a>
+					<a href="#">奥德赛</a>
+					<a href="#">迈腾</a>
+					<a href="#">飞度</a>
+			</div>
+			<div class="feature g-fr g-f12">
+				<ul>
+					<li><i class="icon"></i>诚信</li>
+					<li class="t2"><i class="icon"></i>低价</li>
+					<li class="t3"><i class="icon"></i>安全</li>
+					<li class="t4"><i class="icon"></i>售后</li>
+				</ul>
+			</div>
+		</div>
+		<div class="nav">
+			<ul class="clearfix">
+				<li class="category" id="J_headerCategory">
+					<a class="title title1" id="allTypes" href="javascript:;">全部分类<b></b></a>
+					<div class="bg"></div>
+					<div class="category-menu nav-left-tab clearfix">
+						<div class="category-box">
+							<div class="cat-list cat-list-brand">
+								<div class="cat-sub">
+									<i class="t-a"></i>
+									<i class="icon"></i>
+									<p class="t">品牌</p>
+									<dl class="item clearfix dl-b">
+										<dd>
+											<a href="/#">本田</a>
+										</dd>
+										<dd>
+											<a href="/#">大众</a>
+										</dd>
+										<dd>
+											<a href="/#">丰田</a>
+										</dd>
+										<dd>
+											<a href="/#">奔驰</a>
+										</dd>
+										<dd>
+											<a href="/#">荣威</a>
+										</dd>
+										<dd>
+											<a href="/#">奥迪</a>
+										</dd>
+										<dd>
+											<a href="/#">日产</a>
+										</dd>
+										<dd>
+											<a href="/#">别克</a>
+										</dd>
+										<dd>
+											<a href="/#">宝马</a>
+										</dd>
+										<dd>
+											<a href="/#">马自达</a>
+										</dd>
+										<dd>
+											<a href="/#">比亚迪</a>
+										</dd>
+										<dd>
+											<a href="/#">雪佛兰</a>
+										</dd>
+										<dd>
+											<a href="/#">福特</a>
+										</dd>
+										<dd>
+											<a href="/#">现代</a>
+										</dd>
+										<dd>
+											<a href="/#">吉利</a>
+										</dd>
+										<dd>
+											<a href="/#">哈弗</a>
+										</dd>
+										<dd>
+											<a href="/#">雷克萨斯</a>
+										</dd>
+										<dd>
+											<a href="/#">广汽传祺</a>
+										</dd>
+									</dl>
+									<div class="border"></div>
+								</div>
+
+							</div>
+							<div class="cat-list">
+								<i class="t-a"></i>
+								<i class="icon"></i>
+								<p class="t">品牌</p>
+								<div class="car-type">
+									<div class="car-cont">
+										<dl style="">
+											<dt><img src="http://img.auto318.com/carlogo75/57756.gif"/></dt>
+											<dd>诚信</dd>
+										</dl>
+										<dl>
+											<dt><img src="http://img.auto318.com/carlogo75/57756.gif"/></dt>
+											<dd>诚信</dd>
+										</dl>
+										<dl>
+											<dt><img src="http://img.auto318.com/carlogo75/57756.gif"/></dt>
+											<dd>诚信</dd>
+										</dl>
+										<dl>
+											<dt><img src="http://img.auto318.com/carlogo75/57756.gif"/></dt>
+											<dd>诚信</dd>
+										</dl>
+										<dl>
+											<dt><img src="http://img.auto318.com/carlogo75/57756.gif"/></dt>
+											<dd>诚信</dd>
+										</dl>
+										<dl>
+											<dt><img src="http://img.auto318.com/carlogo75/57756.gif"/></dt>
+											<dd>诚信</dd>
+										</dl>
+										<dl>
+											<dt><img src="http://img.auto318.com/carlogo75/57756.gif"/></dt>
+											<dd>诚信</dd>
+										</dl>
+										<dl>
+											<dt><img src="http://img.auto318.com/carlogo75/57756.gif"/></dt>
+											<dd>诚信</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</li>
+				<li class="home">
+					<a class="link" href='index.html'><span>首页</span></a>
+				</li>
+				<li><a class='selected link' href='#' ><span>团购排期</span></a></li>
+      				<li><a class="link" href='hot.html' ><span>团购车型</span></a></li>
+      			
+      				<li><a class="link" href='/goucheliucheng/' ><span>购车流程</span></a></li>
+      			
+      				<li><a class="link" href='/tuangoubidu/' ><span>团购必读</span></a></li>
+      			
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- header end -->
+<!-- /header -->
+	<!--<div class="wrapper-box">
+
+		
+	</div>-->
+	<div class="mod-buy">
+		<div class="wrapper">
+			<div class="title mod-title clearfix">
+				<h3>深圳品牌专场团购会</h3>
+			</div>
+			<div class="buy-box">
+				<ul class="clearfix">
+					<li>
+						<a href="/#">
+							<div class="pic">
+								<img src="http://img.auto318.com/carlogo75/57756.gif" alt="路虎">
+							</div>
+							<div class="name">路虎 底价优惠大酬宾 </div>
+							<div class="style-list">
+								<span>揽胜极光</span><span>发现神行</span><span>揽胜</span><span>揽胜运动版</span><span>揽胜星脉</span><span>揽胜运动欧规版</span><span>卫士欧规版</span><span>发现</span><span>揽胜行政欧规版</span><span>发现4加规版</span><span>卫士美规版</span><span>发现4美规版</span><span>揽胜行政美规版</span><span>揽胜星脉欧规版</span><span>揽胜运动加规版</span><span>发现5欧规版</span><span>发现5加规版</span><span>揽胜星脉加规版</span> </div>
+							<div class="bottom">
+								<p>已报名<em>  37</em>人</p>
+								<p>
+									3月24日-3月25日 </p>
+								<span>查看详情</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/#">
+							<div class="pic">
+								<img src="http://img.auto318.com/carlogo75/57756.gif" alt="路虎">
+							</div>
+							<div class="name">路虎 底价优惠大酬宾 </div>
+							<div class="style-list">
+								<span>揽胜极光</span><span>发现神行</span><span>揽胜</span><span>揽胜运动版</span><span>揽胜星脉</span><span>揽胜运动欧规版</span><span>卫士欧规版</span><span>发现</span><span>揽胜行政欧规版</span><span>发现4加规版</span><span>卫士美规版</span><span>发现4美规版</span><span>揽胜行政美规版</span><span>揽胜星脉欧规版</span><span>揽胜运动加规版</span><span>发现5欧规版</span><span>发现5加规版</span><span>揽胜星脉加规版</span> </div>
+							<div class="bottom">
+								<p>已报名<em>  37</em>人</p>
+								<p>
+									3月24日-3月25日 </p>
+								<span>查看详情</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/#">
+							<div class="pic">
+								<img src="http://img.auto318.com/carlogo75/57756.gif" alt="路虎">
+							</div>
+							<div class="name">路虎 底价优惠大酬宾 </div>
+							<div class="style-list">
+								<span>揽胜极光</span><span>发现神行</span><span>揽胜</span><span>揽胜运动版</span><span>揽胜星脉</span><span>揽胜运动欧规版</span><span>卫士欧规版</span><span>发现</span><span>揽胜行政欧规版</span><span>发现4加规版</span><span>卫士美规版</span><span>发现4美规版</span><span>揽胜行政美规版</span><span>揽胜星脉欧规版</span><span>揽胜运动加规版</span><span>发现5欧规版</span><span>发现5加规版</span><span>揽胜星脉加规版</span> </div>
+							<div class="bottom">
+								<p>已报名<em>  37</em>人</p>
+								<p>
+									3月24日-3月25日 </p>
+								<span>查看详情</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/#">
+							<div class="pic">
+								<img src="http://img.auto318.com/carlogo75/57756.gif" alt="路虎">
+							</div>
+							<div class="name">路虎 底价优惠大酬宾 </div>
+							<div class="style-list">
+								<span>揽胜极光</span><span>发现神行</span><span>揽胜</span><span>揽胜运动版</span><span>揽胜星脉</span><span>揽胜运动欧规版</span><span>卫士欧规版</span><span>发现</span><span>揽胜行政欧规版</span><span>发现4加规版</span><span>卫士美规版</span><span>发现4美规版</span><span>揽胜行政美规版</span><span>揽胜星脉欧规版</span><span>揽胜运动加规版</span><span>发现5欧规版</span><span>发现5加规版</span><span>揽胜星脉加规版</span> </div>
+							<div class="bottom">
+								<p>已报名<em>  37</em>人</p>
+								<p>
+									3月24日-3月25日 </p>
+								<span>查看详情</span>
+							</div>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+		<!-- footer -->
+		<div class="mod-ensure g-mt20">
+			<div class="wrapper">
+				<ul class="clearfix">
+					<li>
+						<i class="g-fl icon"></i>
+						<div class="service g-fl">
+							<p>底价保证</p>4S店挑最低价合作</div>
+					</li>
+					<li class="t2">
+						<i class="g-fl icon"></i>
+						<div class="service g-fl">
+							<p>车源保证</p>甄选本地优质正规4S店</div>
+					</li>
+					<li class="t3">
+						<i class="g-fl icon"></i>
+						<div class="service g-fl">
+							<p>售后维权</p>质量问题车主之家协商解决</div>
+					</li>
+					<li class="t4">
+						<i class="g-fl icon"></i>
+						<div class="service g-fl">
+							<p>全国联保</p>4S店均可维修保养</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mod-footer">
+			<div class="bgd">
+				<div class="interior-link g-f12">
+					<a href="#" target="_blank">车主之家首页</a>|
+					<a href="/#" target="_blank">购车流程</a>|
+					<a href="/#" target="_blank">常见问题</a>|
+					<a href="/#" target="_blank">团购必读</a>|
+					<a href="/#" target="_blank">关于我们</a>|
+					<a href="/#" target="_blank">联系我们</a>|
+					<a href="#" target="_blank">加入我们</a>
+				</div>
+				<!--<div class="copy g-f12">
+					版权所有：深圳市车友联盟汽车服务有限公司（www.16888.com） 法律顾问：广东鼎方律师事务所
+					<br> 备案号：
+					<a href="//www.miitbeian.gov.cn/" target="_blank">粤ICP备06021273号</a>电信与信息业务经营许可证号：
+					<a href="//www.16888.com/icp.html" target="_blank">粤B2－20080314</a>
+					<br> 深圳30年网络信息杰出贡献企业 深圳电子商务协会监事单位 深圳四川商会理事单位
+				</div>
+				<div class="bottom-ico">
+					<a href="//szcert.ebs.org.cn/CreditInfo.aspx?id=763293b3-8397-46cf-8392-42d439ea15dd" title="网络工商">网络工商</a>
+					<a href="//www.16888.com/icp.html" class="i2" title="经营性网站备案信息">经营性网站备案信息</a>
+					<a href="//net.china.com.cn/" class="i3" title="不良信息举报中心">不良信息举报中心</a>
+					<a href="//www.cyberpolice.cn/" class="i4" title="网络110报警服务">网络110报警服务</a>
+					<a href="#" class="i5" title="可信网站示范单位">可信网站示范单位</a>
+					<a href="#" class="i-scanv" title="SCANV安全中心">SCANV安全中心</a>
+				</div>-->
+			</div>
+		</div>
+		<!-- footer end -->
+<!-- /footer -->
+
+</body>
+</html>
